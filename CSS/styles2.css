@@ -1,0 +1,157 @@
+/*ponemos en cero los parametros de la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*pagina Home*/
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.logo{
+    width: 150px;
+}
+
+.banner{
+    width: 75%;
+    height: 200px;
+    margin-top: 100px;
+    background-size: cover;
+}
+
+.titulo{
+    position: relative;
+    bottom: 16.2rem;
+    left: 10rem;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.navbar{
+    position: relative;
+    left: 52rem;
+    top: -17rem;
+}
+
+.navbar>a{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    box-shadow: 0px 3px 5px 0 black;
+    font-style: normal;
+}
+
+.navbar>a:hover{
+    background-color: forestgreen;
+}
+
+.logo{
+    position: relative;
+    top: 12rem;
+    left: 10rem;
+}
+
+.upcoming{
+    border: 1px solid black;
+    color: black;
+    width: 75%;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    left: 9.7rem;
+    bottom: 4.6rem;
+    padding: 5px;
+}
+
+.fechas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    position: relative;
+    left: 25rem;
+    bottom: 3rem;
+}
+
+.fechas>dd{
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+
+/*pagina About*/
+
+
+.about{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    left: 9.7rem;
+    bottom: 4.6rem;
+    padding: 5px;
+}
+
+.informacion{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    position: relative;
+    left: 25rem;
+    bottom: 2rem;
+    max-width: 35rem;
+}
+.informacion h4{
+    font-size: 1.3rem;
+}
+
+.informacion>p{
+    margin-bottom: 2rem;
+}
+
+.texto{
+    text-align: justify;
+}
+
+/*pagina contacto*/
+
+.contacto{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    left: 9.7rem;
+    bottom: 4.6rem;
+    padding: 5px;
+}
+
+.infocontacto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    position: relative;
+    left: 22rem;
+    bottom: 1rem;
+}
+
+.infocontacto>p{
+    margin-bottom: 2rem;
+}
+
+p>a{
+    margin: 1rem;
+}
