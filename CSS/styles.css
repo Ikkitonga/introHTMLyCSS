@@ -33,7 +33,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     left: 2rem;
-    bottom: 31rem;
+    top: 1rem;
 }
 
 .navbar{
