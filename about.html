@@ -11,43 +11,57 @@
     <title>About</title>
 </head>
 
+<!--Para poder ver el style.css hay que comentar el link de styles2 y descomentar la etiqueta (img class="banner")-->
+
+<!-- Se que el diseño 2 que es el que use para la task 3 el logo no va en el banner pero en 
+las paginas game_info y rules si no lo ponia sobre el banner debia achicar mucho las tipografias
+y no me gustaba como quedaba por lo tanto decidi que en las 5 paginas y para hacer una simetria 
+en la task 3 el logo quedara en ese lugar-->
+
 <body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#" class="active">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="game_info.html">Game Info</a>
+        <a href="rules.html">Rules</a>
+    </nav>
     <header>
         <img src="./imagenes/LogoMightyducks-01.png" alt="logo Mighty Ducks" class="logo">
         <!-- <img src="./imagenes/design1_image1.jpg" class="banner" alt="banner hockey"> -->
         <h1 class="titulo">Mighty Ducks Hockey League</h1>
+
     </header>
 
-    <aside>
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="#" class="active">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="game_info.html">Game Info</a>
-            <a href="rules.html">Rules</a>
-        </nav>
-    </aside>
 
-    <Main>
+
+    <section class="informacion">
+
         <h3 class="about">About MDHL</h3>
-        <section class="informacion">
-            <h4><b>Mision</b></h4>
-            <p class="texto">To support young athletes living Chicago's northside neighborhood, who have an interest in
-                learning and playing soccer, with opportunities to learn and practice skills related to the game of
-                hockey, specifically those skills around team cooperation and good sportsmanship</p>
+        <ul>
+            <li><b>Mision</b>
+                <p class="texto">To support young athletes living Chicago's northside neighborhood, who have an
+                    interest in
+                    learning and playing soccer, with opportunities to learn and practice skills related to the game of
+                    hockey, specifically those skills around team cooperation and good sportsmanship</p>
+            </li>
 
-            <h4><b>Vision</b></h4>
-            <p class="texto">The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
-                through the building of character, self-discipline, and leadership.</p>
+            <li><b>Vision</b>
+                <p class="texto">The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful
+                    athletes
+                    through the building of character, self-discipline, and leadership.</p>
+            </li>
 
-            <h4><b>General Information</b></h4>
-            <p class="texto">The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
-                Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a
-                member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside
-                neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
-                parents and previous league members.</p>
-        </section>
-    </Main>
+            <li><b>General Information</b>
+                <p class="texto">The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
+                    Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a
+                    member of MDHL, you must be between the ages of 4 - 12 and reside a Chicago northside
+                    neighborhood. MDHL ran by o small full-time staff, and relies on the generous volunteer time of
+                    parents and previous league members.</p>
+            </li>
+        </ul>
+    </section>
+
 </body>
 
 </html>
