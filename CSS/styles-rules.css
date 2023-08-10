@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos logo, header y navbar de task 2 de styles2.css 
+(diseño 2)*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    overflow-x: none;
+}
+
+.logo{
+    width: 10rem;
+}
+
+header{
+    display: flex;
+    background-image: url("../imagenes/design1_image2.jpg");
+    min-width: 95vw;
+    height: 150px;
+    background-position: 0 -190px;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: lighter;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.navbar>a{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    box-shadow: 0px 3px 5px 0 black;
+    font-style: normal;
+}
+
+.active{
+    background-color: green!important;
+}
+
+/*Hasta aca estilos logo, header y navbar de task 2*/
+
+
+.segundo-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+main{
+    margin-left: 1.3rem;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+b{
+    font-size: 1.2rem;
+}
+
+dd,li{
+    font-size: 0.90rem;
+}
+
+dd{
+   text-indent: 1rem;
+   margin-bottom: 0.4rem; 
+}
+ul>li{
+    margin-left: 1rem;
+    text-indent: 1rem;
+}
