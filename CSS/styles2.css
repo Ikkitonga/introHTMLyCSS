@@ -11,7 +11,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
     font-style: oblique;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .logo{
@@ -21,7 +21,7 @@ body{
 header{
     display: flex;
     background-image: url("../imagenes/design1_image2.jpg");
-    min-width: 100vw;
+    min-width: 95vw;
     height: 150px;
     background-position: 0 -190px;
 }
@@ -99,9 +99,9 @@ dt>b{
 
 .about{
     border: 1px solid black;
-    color: rgb(0, 0, 0);
-    min-width: 100vw;
-    background-color: rgb(255, 255, 255);
+    color: black;
+    min-width: 95vw;
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-weight: lighter;
@@ -111,18 +111,13 @@ dt>b{
 .informacion{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    display: flex;
-    justify-content: left;
-    align-items: center;
     flex-direction: column;
-    margin-left: 15.2rem;
-    max-width: 55rem;
-    font-size: 1rem;
-    
 }
 
 ul{
     margin-top: 2rem;
+    margin-left: 15.2rem;
+    max-width: 55rem;
 }
 
 li{
@@ -165,4 +160,37 @@ li>b{
 
 p>a{
     margin: 1rem;
+}
+
+
+/* estilos media query */
+
+/* home */
+
+@media only screen and (max-width: 768px) {
+    
+    dt>b{
+        font-size: 1rem;
+    }
+    
+    .fechas>dd{
+        font-size: 0.8rem;
+    } 
+}
+
+/* about */
+
+@media only screen and (max-width: 768px){
+    ul{
+        margin-top: 1rem;
+        margin-left: 10rem;
+        max-width: 30rem;
+    }
+    
+    li{
+        font-size: 0.7rem;
+    }
+    li>b{
+        font-size: 1rem;
+    }
 }

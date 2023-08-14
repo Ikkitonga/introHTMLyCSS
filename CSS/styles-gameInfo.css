@@ -56,12 +56,51 @@ header{
 
 /*Hasta aca estilos logo, header y navbar de task 2*/
 
-section{
-    margin-left: 5rem;
+/* estilos para mapas */
+
+
+.mapas-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-mapas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.mapa{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mapa iframe{
+    width: 50%;
+    height: auto;
+    border: 0;
+}
+
+.mapa figcaption{
+    margin-top: 10px;
+}
+
+/* hasta aca estilos mapas */
+
+/* estilos de la tabla */
+
+
+.titulo-tabla{
+    display: flex;
+    flex-direction: column;
 }
 
 h4{
-    margin-top: 1rem;
     font-style: oblique;
     font-weight: bold;
 }
@@ -73,19 +112,20 @@ section>span{
 
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 th,td{
     text-align: center;
-    padding:0.1em;
+    padding: 0.3rem ;
 }
+
+/* hasta aca estilos de la tabla */
 
 .responsable{
     display: flex;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .phone-email,
@@ -93,5 +133,7 @@ th,td{
     display: flex;
     gap: 5rem;
 }
-
-
+ 
+.notas, .responsable, .phone-email{
+ margin-left: 1rem;
+}

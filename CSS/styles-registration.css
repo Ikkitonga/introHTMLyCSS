@@ -1,0 +1,168 @@
+/*ponemos en cero los parametros de la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*pagina index*/
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.logo{
+    width: 10rem;
+}
+
+header{
+    display: flex;
+    background-image: url("../imagenes/design1_image2.jpg");
+    min-width: 100vw;
+    height: 150px;
+    background-position: 0 -190px;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.navbar>a{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    box-shadow: 0px 3px 5px 0 black;
+    font-style: normal;
+}
+
+.active{
+    background-color: green!important;
+}
+
+/* hasta aca la configuracion general de las paginas */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+}
+
+.personales{
+    padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+#first-name{
+    width: 73vh;
+    margin: 0.5rem;
+}
+
+#last-name{
+    width: 73vh;
+    margin: 0.5rem;
+}
+
+#address{
+    width: 75vw;
+    margin: 1rem;
+}
+
+#city, #zip-code{
+    width: 30vw;
+    margin: 0.5rem;
+}
+
+#birth-date{
+    width: 15rem;
+    margin: 1rem;
+}
+
+#female, #male{
+    margin: 0.5rem;
+}
+
+#grade, #pre-school, #first, #second, #third, #fouth, #fifth{
+    margin: 0.5rem;
+}
+
+#select-school{
+    width: 10rem;
+    height: 1.5rem;
+}
+
+fieldset{
+    padding: 1rem;
+    margin-bottom: 1rem;
+} 
+
+#signature{
+    width: 20rem;
+    margin: 1rem;
+}
+
+.submit{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    #first-name{
+        width: 25vw;
+    }
+    #last-name{
+        width: 25vw;
+    }
+    #address{
+        width: 65.7vw;
+    }
+    #birth-date{
+        width: 10rem;
+    }
+    #signature{
+        width: 25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
